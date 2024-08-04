@@ -1,7 +1,7 @@
 ## Labeling bot
 
 ###  🛰️ Version 1 
-![alt text](assets/image.png)
+![alt text](assets/version1.png)
 
 #### Total Time: 5M
 
