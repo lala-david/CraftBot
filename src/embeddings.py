@@ -1,8 +1,7 @@
-import json
 from sklearn.metrics.pairwise import cosine_similarity
 from sentence_transformers import SentenceTransformer
 
-embeddings = SentenceTransformer('all-MiniLM-L6-v2')
+embeddings = SentenceTransformer('all-MiniLM-L12-v2')
 
 def get_embedding(text):
     return embeddings.encode(text)
