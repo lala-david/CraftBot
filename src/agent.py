@@ -13,7 +13,7 @@ with open(prc_dt, 'r') as file:
 with open(raw_dt, 'r') as file:
     raw = json.load(file)
 
-categories = ["Wallet", "Proxy", "Exchange", "Swap", "Null Address", "Bridge", "Mixer", "Gambling", "Bot", "Deployer", "Other", "Exploiter"]
+categories = [""]
 
 category_emp = {category: [] for category in categories}
 for event in prc.values():
